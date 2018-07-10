@@ -1,0 +1,14 @@
+[
+  {
+    "id": 320,
+    "date": "2018-05-20T14:00:00",
+    "teams" :  [{"id": 200, "name": "Flamengo"},{"id": 340, "name": "Emelec"}],
+    "stadium" : "Maracanã"
+  },
+    {
+    "id": 320,
+    "date": "2018-05-20T14:00:00",
+    "teams" :  [{"id": 200, "name": "Flamengo"},{"id": 340, "name": "Emelec"}],
+    "stadium" : "Maracanã"
+  },
+]

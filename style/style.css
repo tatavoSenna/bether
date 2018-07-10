@@ -1,0 +1,26 @@
+.ui.container.main-header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  overflow: auto;
+}
+
+.ui.grid.matches-list .match {
+  padding: .2rem 0 .2rem 0;
+}
+
+.ui.grid.matches-list .row .match-bet {
+  padding: 0 .1rem 0 .1rem;
+}
+
+.ui.grid.matches-list .row .match-bet-button {
+  padding: 5px 10px 5px 10px;
+  background-color: rgba(200, 200, 200, 1);
+}
+
+.ui.grid.matches-list .row .match-bet-button:hover {
+    background-color: rgba(220, 220, 220, 1);
+}
+
+h1, h2 {
+	margin-bottom: 2rem
+}

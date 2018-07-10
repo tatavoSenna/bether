@@ -1,5 +1,6 @@
 module.exports = {
-  entry: ['./src/index.js'],
+  entry: ['babel-polyfill','./src/index.js'],
+  devtool: 'source-map',
   output: {
     path: __dirname,
     publicPath: '/',
@@ -8,16 +9,20 @@ module.exports = {
   module: {
     loaders: [
       {
+        test: /\.js$/,
         exclude: /node_modules/,
         loader: 'babel',
         query: {
           presets: ['react', 'es2015', 'stage-1']
         }
+      }, {
+        test: /\.json$/,
+        loader: 'json-loader'
       }
     ]
   },
   resolve: {
-    extensions: ['', '.js', '.jsx']
+    extensions: ['', '.json', '.js', '.jsx']
   },
   devServer: {
     historyApiFallback: true,
